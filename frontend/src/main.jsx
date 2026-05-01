@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { AlertCircle, CheckCircle2, FileText, Loader2, Upload } from "lucide-react";
 import "./styles.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API_URL = (import.meta.env.VITE_API_URL || "/api").replace(/\/$/, "");
 const MAX_UPLOAD_BYTES = 5 * 1024 * 1024;
 const ALLOWED_EXTENSIONS = [".pdf", ".docx", ".txt"];
 
@@ -13,6 +13,14 @@ function getApiErrorMessage(payload) {
 
 function isAllowedResumeFile(filename) {
   return ALLOWED_EXTENSIONS.some((extension) => filename.toLowerCase().endsWith(extension));
+}
+
+function getConnectionErrorMessage(error) {
+  if (error instanceof TypeError) {
+    return `Could not reach the backend. Start the API server or set VITE_API_URL. Tried ${API_URL}/analyze.`;
+  }
+
+  return error.message || "Resume analysis failed.";
 }
 
 function App() {
@@ -58,7 +66,7 @@ function App() {
       }
       setResult(data);
     } catch (fetchError) {
-      setError(fetchError.message || `Could not connect to the backend at ${API_URL}.`);
+      setError(getConnectionErrorMessage(fetchError));
     } finally {
       setIsLoading(false);
     }
@@ -177,9 +185,23 @@ function Results({ result, scoreTone }) {
       </div>
 
       <Panel title="Feedback">
+        <StatusPill source={result.feedback.source} />
         <FeedbackBlock title="Strengths" items={result.feedback.strengths} icon="success" />
         <FeedbackBlock title="Weaknesses" items={result.feedback.weaknesses} />
         <FeedbackBlock title="Improvements" items={result.feedback.improvements} />
+      </Panel>
+
+      <div className="grid gap-6 xl:grid-cols-2">
+        <Panel title="Priority action plan">
+          <FeedbackBlock title="What to fix first" items={result.feedback.priority_actions} />
+        </Panel>
+        <Panel title="Interview prep">
+          <FeedbackBlock title="Likely questions" items={result.feedback.interview_questions} />
+        </Panel>
+      </div>
+
+      <Panel title="Rewritten bullets">
+        <FeedbackBlock title="Copy-ready suggestions" items={result.feedback.rewritten_bullets} />
       </Panel>
 
       <Panel title="Resume preview">
@@ -203,6 +225,21 @@ function Panel({ title, children }) {
     <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
       <h2 className="text-base font-semibold text-slate-900">{title}</h2>
       <div className="mt-4 space-y-4">{children}</div>
+    </div>
+  );
+}
+
+function StatusPill({ source }) {
+  const isAi = source === "openai";
+  const className = isAi
+    ? "border-sky-200 bg-sky-50 text-sky-800"
+    : "border-slate-200 bg-slate-100 text-slate-700";
+
+  return (
+    <div className="mb-4">
+      <span className={`inline-flex rounded-full border px-2.5 py-1 text-xs font-medium uppercase tracking-wide ${className}`}>
+        {isAi ? "AI feedback enabled" : "Fallback feedback"}
+      </span>
     </div>
   );
 }

@@ -83,6 +83,7 @@ async def analyze_resume(
         weak_sections=weak_sections,
     )
     feedback = generate_feedback(
+        resume_text=resume_text,
         job_role=job_role,
         matched_skills=match["matched_skills"],
         missing_skills=match["missing_skills"],

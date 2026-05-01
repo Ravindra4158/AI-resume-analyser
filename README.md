@@ -1,6 +1,6 @@
 # AI Resume Analyzer
 
-A hackathon-friendly MVP for analyzing resumes against a target role or job description.
+An AI-powered job-readiness copilot that analyzes a resume against a target role, surfaces missing skills and weak sections, and gives a practical roadmap to improve interview chances.
 
 ## What Is Built
 
@@ -10,6 +10,11 @@ A hackathon-friendly MVP for analyzing resumes against a target role or job desc
 - Skill matching, missing skill detection, weak section detection, and weighted scoring.
 - React dashboard for uploading a resume and viewing the analysis.
 - Deterministic feedback engine that works without an API key.
+- Optional OpenAI-powered feedback for richer rewrite suggestions, action plans, and interview questions.
+
+## Hackathon Pitch
+
+Most job seekers do not know why they are being rejected. This project turns a resume into a role-specific readiness report with actionable next steps instead of giving only a generic score.
 
 ## Project Structure
 
@@ -35,6 +40,24 @@ skills.md
 
 ## Run Backend
 
+Windows PowerShell:
+
+```powershell
+cd backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m uvicorn main:app --reload
+```
+
+Or from the repo root:
+
+```powershell
+.\scripts\start-backend.ps1
+```
+
+macOS / Linux:
+
 ```bash
 cd backend
 python -m venv .venv
@@ -55,6 +78,8 @@ npm run dev
 
 Frontend runs at `http://localhost:5173`.
 
+If the frontend shows `ECONNREFUSED 127.0.0.1:8000`, the backend is not running yet. Start it first, then retry the upload.
+
 ## Production Configuration
 
 Backend environment variables:
@@ -65,28 +90,35 @@ Backend environment variables:
 - `ALLOWED_ORIGINS`: comma-separated frontend origins allowed by CORS.
 - `MAX_UPLOAD_BYTES`: maximum resume upload size, defaults to 5 MB.
 - `RESUME_PREVIEW_CHARS`: length of the returned resume preview.
+- `OPENAI_API_KEY`: enables AI-generated feedback when set.
+- `OPENAI_MODEL`: OpenAI model name, defaults to `gpt-5-mini`.
+- `OPENAI_TIMEOUT_SECONDS`: timeout for OpenAI API calls.
 
 Frontend environment variables:
 
 - `VITE_API_URL`: public URL of the backend API.
 
-## Docker Deployment
+## Enable AI Features
 
-Build and run both services:
+By default, the app uses deterministic fallback feedback so it always works locally.
 
-```bash
-docker compose up --build
+To enable the AI features from `plan.md`, add your OpenAI API key in the backend environment:
+
+```powershell
+$env:OPENAI_API_KEY="your_api_key_here"
+$env:OPENAI_MODEL="gpt-5-mini"
 ```
 
-Docker frontend runs at `http://localhost:8080`.
-Docker backend runs at `http://localhost:8000`.
+Then restart the backend and analyze a resume again.
 
-For a real domain, update `ALLOWED_ORIGINS` in `docker-compose.yml` and build the frontend with the deployed backend URL:
+When AI is enabled, the app can return:
 
-```bash
-docker compose build --build-arg VITE_API_URL=https://your-api-domain.com frontend
-docker compose up
-```
+- role-specific strengths and weaknesses
+- priority action plan
+- rewritten resume bullets
+- interview prep questions
+
+When no API key is set, the app falls back to the built-in local feedback engine.
 
 ## Test
 

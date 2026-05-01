@@ -22,6 +22,9 @@ class Settings:
     )
     max_upload_bytes: int = int(os.getenv("MAX_UPLOAD_BYTES", str(5 * 1024 * 1024)))
     resume_preview_chars: int = int(os.getenv("RESUME_PREVIEW_CHARS", "800"))
+    openai_api_key: str = os.getenv("OPENAI_API_KEY", "")
+    openai_model: str = os.getenv("OPENAI_MODEL", "gpt-5-mini")
+    openai_timeout_seconds: int = int(os.getenv("OPENAI_TIMEOUT_SECONDS", "25"))
 
 
 settings = Settings()

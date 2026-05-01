@@ -22,10 +22,13 @@ class Score(BaseModel):
 
 
 class Feedback(BaseModel):
+    source: str
     strengths: list[str]
     weaknesses: list[str]
     improvements: list[str]
+    priority_actions: list[str]
     rewritten_bullets: list[str]
+    interview_questions: list[str]
 
 
 class AnalyzeResponse(BaseModel):

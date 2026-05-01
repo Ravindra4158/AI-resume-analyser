@@ -46,6 +46,10 @@ def test_analyze_txt_resume_returns_score() -> None:
     assert payload["score"]["overall"] >= 80
     assert "react" in payload["matched_skills"]
     assert payload["feedback"]["improvements"]
+    assert payload["feedback"]["priority_actions"]
+    assert payload["feedback"]["rewritten_bullets"]
+    assert payload["feedback"]["interview_questions"]
+    assert payload["feedback"]["source"] == "fallback"
 
 
 def test_analyze_rejects_unsupported_file_type() -> None:
