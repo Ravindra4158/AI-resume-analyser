@@ -4,6 +4,8 @@ from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from analyzer.ats import analyze_ats_compliance
+from ai_engine.upskilling import generate_upskilling_roadmap
 from analyzer.gap import find_weak_sections
 from analyzer.matcher import match_skills
 from analyzer.scorer import calculate_score
@@ -89,11 +91,13 @@ async def analyze_resume(
         missing_skills=match["missing_skills"],
         weak_sections=weak_sections,
     )
+    ats_compliance = analyze_ats_compliance(resume_text)
+
+    upskilling_roadmap = generate_upskilling_roadmap(match["missing_skills"], required_skills)
 
     return {
         "filename": resume.filename,
         "job_role": job_role.strip(),
-        "resume_preview": resume_text[: settings.resume_preview_chars],
         "resume_skills": resume_skills,
         "required_skills": required_skills,
         "matched_skills": match["matched_skills"],
@@ -101,4 +105,6 @@ async def analyze_resume(
         "weak_sections": weak_sections,
         "score": score,
         "feedback": feedback,
+        "ats_compliance": ats_compliance,
+        "upskilling_roadmap": upskilling_roadmap,
     }

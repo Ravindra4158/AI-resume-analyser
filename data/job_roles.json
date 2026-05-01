@@ -1,0 +1,1377 @@
+[
+  {
+    "name": "frontend developer",
+    "keywords": [
+      "frontend",
+      "front-end",
+      "ui developer",
+      "ui engineer",
+      "web developer",
+      "react",
+      "next.js",
+      "javascript",
+      "typescript",
+      "spa"
+    ],
+    "skills": [
+      "react",
+      "javascript",
+      "typescript",
+      "html",
+      "css",
+      "tailwind",
+      "api",
+      "git"
+    ]
+  },
+  {
+    "name": "backend developer",
+    "keywords": [
+      "backend",
+      "back-end",
+      "api developer",
+      "server-side",
+      "rest api",
+      "microservices",
+      "django",
+      "flask",
+      "fastapi"
+    ],
+    "skills": [
+      "python",
+      "fastapi",
+      "flask",
+      "sql",
+      "postgresql",
+      "docker",
+      "api",
+      "git"
+    ]
+  },
+  {
+    "name": "full stack developer",
+    "keywords": [
+      "full stack",
+      "full-stack",
+      "software engineer",
+      "software developer",
+      "web application",
+      "frontend and backend"
+    ],
+    "skills": [
+      "react",
+      "javascript",
+      "typescript",
+      "python",
+      "sql",
+      "api",
+      "docker",
+      "git"
+    ]
+  },
+  {
+    "name": "data analyst",
+    "keywords": [
+      "data analyst",
+      "analytics",
+      "business analyst",
+      "reporting",
+      "dashboard",
+      "bi analyst",
+      "power bi",
+      "tableau"
+    ],
+    "skills": [
+      "sql",
+      "excel",
+      "data analysis",
+      "statistics",
+      "python",
+      "pandas",
+      "tableau",
+      "communication"
+    ]
+  },
+  {
+    "name": "data scientist",
+    "keywords": [
+      "data scientist",
+      "machine learning",
+      "ml",
+      "predictive",
+      "modeling",
+      "statistics",
+      "experiment"
+    ],
+    "skills": [
+      "python",
+      "machine learning",
+      "pandas",
+      "statistics",
+      "sql",
+      "data analysis",
+      "tensorflow"
+    ]
+  },
+  {
+    "name": "ml engineer",
+    "keywords": [
+      "ml engineer",
+      "machine learning engineer",
+      "mlops",
+      "deployment",
+      "model serving",
+      "deep learning"
+    ],
+    "skills": [
+      "python",
+      "machine learning",
+      "docker",
+      "api",
+      "tensorflow",
+      "aws",
+      "kubernetes"
+    ]
+  },
+  {
+    "name": "devops engineer",
+    "keywords": [
+      "devops",
+      "site reliability",
+      "sre",
+      "ci/cd",
+      "infrastructure",
+      "cloud engineer",
+      "platform engineer",
+      "terraform"
+    ],
+    "skills": [
+      "docker",
+      "kubernetes",
+      "aws",
+      "azure",
+      "linux",
+      "git",
+      "ci/cd",
+      "terraform"
+    ]
+  },
+  {
+    "name": "qa engineer",
+    "keywords": [
+      "qa engineer",
+      "quality assurance",
+      "test automation",
+      "selenium",
+      "playwright",
+      "automation tester",
+      "manual testing"
+    ],
+    "skills": [
+      "test automation",
+      "selenium",
+      "playwright",
+      "git",
+      "communication",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "product manager",
+    "keywords": [
+      "product manager",
+      "product owner",
+      "product strategy",
+      "roadmap",
+      "agile",
+      "scrum",
+      "stakeholder"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "agile",
+      "jira",
+      "data analysis",
+      "sql",
+      "presentation"
+    ]
+  },
+  {
+    "name": "marketing specialist",
+    "keywords": [
+      "marketing",
+      "digital marketing",
+      "brand",
+      "campaign",
+      "seo",
+      "sem",
+      "social media",
+      "content strategy"
+    ],
+    "skills": [
+      "communication",
+      "presentation",
+      "excel",
+      "data analysis",
+      "content writing",
+      "social media",
+      "project management"
+    ]
+  },
+  {
+    "name": "content writer",
+    "keywords": [
+      "content writer",
+      "copywriter",
+      "copy writing",
+      "blog",
+      "seo content",
+      "editorial",
+      "content marketing"
+    ],
+    "skills": [
+      "communication",
+      "content writing",
+      "research",
+      "seo",
+      "editing",
+      "presentation"
+    ]
+  },
+  {
+    "name": "human resources",
+    "keywords": [
+      "human resources",
+      "hr",
+      "recruiter",
+      "talent acquisition",
+      "people operations",
+      "onboarding",
+      "employee relations"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "presentation",
+      "excel",
+      "interviewing",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "sales associate",
+    "keywords": [
+      "sales",
+      "business development",
+      "account executive",
+      "client success",
+      "customer success",
+      "lead generation"
+    ],
+    "skills": [
+      "communication",
+      "presentation",
+      "negotiation",
+      "crm",
+      "leadership",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "finance analyst",
+    "keywords": [
+      "finance",
+      "financial analyst",
+      "accounting",
+      "budgeting",
+      "forecasting",
+      "audit",
+      "investment"
+    ],
+    "skills": [
+      "excel",
+      "data analysis",
+      "sql",
+      "communication",
+      "problem solving",
+      "presentation"
+    ]
+  },
+  {
+    "name": "teacher",
+    "keywords": [
+      "teacher",
+      "teaching",
+      "educator",
+      "faculty",
+      "instructor",
+      "classroom",
+      "curriculum"
+    ],
+    "skills": [
+      "communication",
+      "presentation",
+      "leadership",
+      "research",
+      "problem solving",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "research assistant",
+    "keywords": [
+      "research",
+      "research assistant",
+      "lab assistant",
+      "academic",
+      "survey",
+      "experiment",
+      "paper"
+    ],
+    "skills": [
+      "research",
+      "communication",
+      "statistics",
+      "excel",
+      "presentation",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "ui designer",
+    "keywords": [
+      "ui designer",
+      "ux designer",
+      "graphic designer",
+      "product designer",
+      "visual design",
+      "prototype",
+      "figma"
+    ],
+    "skills": [
+      "communication",
+      "presentation",
+      "creative thinking",
+      "research",
+      "figma",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "customer support",
+    "keywords": [
+      "customer support",
+      "support specialist",
+      "help desk",
+      "call center",
+      "client support",
+      "customer service"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "teamwork",
+      "presentation",
+      "crm",
+      "excel"
+    ]
+  },
+  {
+    "name": "accountant",
+    "keywords": [
+      "accountant",
+      "accounting",
+      "bookkeeping",
+      "financial reporting",
+      "tax",
+      "general ledger",
+      "ap"
+    ],
+    "skills": [
+      "accounting",
+      "bookkeeping",
+      "excel",
+      "financial reporting",
+      "taxation",
+      "communication"
+    ]
+  },
+  {
+    "name": "auditor",
+    "keywords": [
+      "auditor",
+      "audit",
+      "internal control",
+      "compliance audit",
+      "risk assessment"
+    ],
+    "skills": [
+      "auditing",
+      "risk management",
+      "excel",
+      "financial reporting",
+      "communication",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "banking associate",
+    "keywords": [
+      "banking",
+      "banker",
+      "relationship manager",
+      "branch operations",
+      "loan officer",
+      "credit analyst"
+    ],
+    "skills": [
+      "communication",
+      "sales",
+      "excel",
+      "risk management",
+      "customer service",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "lawyer",
+    "keywords": [
+      "lawyer",
+      "attorney",
+      "advocate",
+      "legal counsel",
+      "litigation",
+      "law firm",
+      "bar"
+    ],
+    "skills": [
+      "legal research",
+      "drafting",
+      "communication",
+      "presentation",
+      "negotiation",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "paralegal",
+    "keywords": [
+      "paralegal",
+      "legal assistant",
+      "case preparation",
+      "legal documentation",
+      "law office"
+    ],
+    "skills": [
+      "legal research",
+      "drafting",
+      "communication",
+      "documentation",
+      "excel",
+      "organization"
+    ]
+  },
+  {
+    "name": "doctor",
+    "keywords": [
+      "doctor",
+      "physician",
+      "medical officer",
+      "general practitioner",
+      "consultant physician"
+    ],
+    "skills": [
+      "patient care",
+      "diagnosis",
+      "medical records",
+      "communication",
+      "problem solving",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "nurse",
+    "keywords": [
+      "nurse",
+      "nursing",
+      "registered nurse",
+      "rn",
+      "clinical care",
+      "ward"
+    ],
+    "skills": [
+      "patient care",
+      "medical records",
+      "communication",
+      "teamwork",
+      "problem solving",
+      "compassion"
+    ]
+  },
+  {
+    "name": "pharmacist",
+    "keywords": [
+      "pharmacist",
+      "pharmacy",
+      "medication",
+      "dispensing",
+      "drug safety"
+    ],
+    "skills": [
+      "pharmacy",
+      "medication",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "dentist",
+    "keywords": [
+      "dentist",
+      "dental",
+      "orthodontic",
+      "oral health",
+      "clinic"
+    ],
+    "skills": [
+      "patient care",
+      "diagnosis",
+      "communication",
+      "problem solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "psychologist",
+    "keywords": [
+      "psychologist",
+      "therapist",
+      "counselor",
+      "counselling",
+      "mental health",
+      "psychiatry"
+    ],
+    "skills": [
+      "communication",
+      "patient care",
+      "research",
+      "problem solving",
+      "compassion",
+      "active listening"
+    ]
+  },
+  {
+    "name": "architect",
+    "keywords": [
+      "architect",
+      "architecture",
+      "building design",
+      "interior design",
+      "autocad",
+      "revit",
+      "blueprint"
+    ],
+    "skills": [
+      "autocad",
+      "creative thinking",
+      "presentation",
+      "project management",
+      "communication",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "civil engineer",
+    "keywords": [
+      "civil engineer",
+      "civil engineering",
+      "construction",
+      "infrastructure",
+      "site engineer",
+      "surveying"
+    ],
+    "skills": [
+      "project management",
+      "autocad",
+      "problem solving",
+      "communication",
+      "teamwork",
+      "safety compliance"
+    ]
+  },
+  {
+    "name": "mechanical engineer",
+    "keywords": [
+      "mechanical engineer",
+      "mechanical engineering",
+      "manufacturing",
+      "maintenance",
+      "machine design",
+      "cad"
+    ],
+    "skills": [
+      "cad",
+      "problem solving",
+      "teamwork",
+      "project management",
+      "mechanical design",
+      "safety compliance"
+    ]
+  },
+  {
+    "name": "electrical engineer",
+    "keywords": [
+      "electrical engineer",
+      "electrical engineering",
+      "power systems",
+      "circuit",
+      "electronics",
+      "embedded"
+    ],
+    "skills": [
+      "electrical systems",
+      "problem solving",
+      "teamwork",
+      "project management",
+      "safety compliance",
+      "cad"
+    ]
+  },
+  {
+    "name": "operations manager",
+    "keywords": [
+      "operations manager",
+      "operations",
+      "process improvement",
+      "workflow",
+      "business operations",
+      "service delivery"
+    ],
+    "skills": [
+      "leadership",
+      "project management",
+      "problem solving",
+      "communication",
+      "excel",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "logistics coordinator",
+    "keywords": [
+      "logistics",
+      "logistics coordinator",
+      "supply chain",
+      "dispatch",
+      "transport",
+      "warehouse"
+    ],
+    "skills": [
+      "logistics",
+      "inventory management",
+      "excel",
+      "communication",
+      "problem solving",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "supply chain manager",
+    "keywords": [
+      "supply chain",
+      "supply chain manager",
+      "procurement",
+      "inventory",
+      "demand planning",
+      "vendor management"
+    ],
+    "skills": [
+      "supply chain",
+      "procurement",
+      "inventory management",
+      "excel",
+      "negotiation",
+      "project management"
+    ]
+  },
+  {
+    "name": "librarian",
+    "keywords": [
+      "librarian",
+      "library",
+      "cataloging",
+      "archives",
+      "information management"
+    ],
+    "skills": [
+      "organization",
+      "communication",
+      "research",
+      "presentation",
+      "teamwork",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "journalist",
+    "keywords": [
+      "journalist",
+      "reporter",
+      "news writer",
+      "media",
+      "editorial",
+      "broadcast"
+    ],
+    "skills": [
+      "communication",
+      "research",
+      "editing",
+      "interviewing",
+      "presentation",
+      "content writing"
+    ]
+  },
+  {
+    "name": "photographer",
+    "keywords": [
+      "photographer",
+      "photography",
+      "videography",
+      "camera",
+      "studio",
+      "photojournalism"
+    ],
+    "skills": [
+      "creative thinking",
+      "communication",
+      "presentation",
+      "editing",
+      "teamwork",
+      "organization"
+    ]
+  },
+  {
+    "name": "chef",
+    "keywords": [
+      "chef",
+      "cook",
+      "culinary",
+      "kitchen",
+      "food service",
+      "bakery"
+    ],
+    "skills": [
+      "cooking",
+      "food safety",
+      "teamwork",
+      "communication",
+      "time management",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "hotel manager",
+    "keywords": [
+      "hotel",
+      "hospitality",
+      "hotel manager",
+      "front office",
+      "guest services",
+      "resort"
+    ],
+    "skills": [
+      "customer service",
+      "communication",
+      "teamwork",
+      "leadership",
+      "problem solving",
+      "presentation"
+    ]
+  },
+  {
+    "name": "flight attendant",
+    "keywords": [
+      "flight attendant",
+      "cabin crew",
+      "air hostess",
+      "airline",
+      "crew member"
+    ],
+    "skills": [
+      "customer service",
+      "communication",
+      "teamwork",
+      "problem solving",
+      "presentation",
+      "safety compliance"
+    ]
+  },
+  {
+    "name": "electrician",
+    "keywords": [
+      "electrician",
+      "electrical technician",
+      "wiring",
+      "power maintenance",
+      "panel",
+      "installation"
+    ],
+    "skills": [
+      "electrical systems",
+      "problem solving",
+      "safety compliance",
+      "teamwork",
+      "technical skills"
+    ]
+  },
+  {
+    "name": "plumber",
+    "keywords": [
+      "plumber",
+      "plumbing",
+      "pipe fitting",
+      "maintenance technician",
+      "water systems"
+    ],
+    "skills": [
+      "problem solving",
+      "safety compliance",
+      "teamwork",
+      "technical skills",
+      "customer service"
+    ]
+  },
+  {
+    "name": "carpenter",
+    "keywords": [
+      "carpenter",
+      "woodworking",
+      "joinery",
+      "furniture making",
+      "construction trades"
+    ],
+    "skills": [
+      "technical skills",
+      "problem solving",
+      "safety compliance",
+      "teamwork",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "security officer",
+    "keywords": [
+      "security officer",
+      "security guard",
+      "surveillance",
+      "access control",
+      "guard"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "safety compliance",
+      "teamwork",
+      "observation",
+      "report writing"
+    ]
+  },
+  {
+    "name": "business analyst",
+    "keywords": [
+      "business analyst",
+      "business analysis",
+      "requirements gathering",
+      "process improvement",
+      "stakeholder management"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "excel",
+      "sql",
+      "presentation",
+      "data analysis"
+    ]
+  },
+  {
+    "name": "management consultant",
+    "keywords": [
+      "management consultant",
+      "consulting",
+      "strategy",
+      "business transformation",
+      "process optimization"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "presentation",
+      "excel",
+      "project management",
+      "strategic thinking"
+    ]
+  },
+  {
+    "name": "project manager",
+    "keywords": [
+      "project manager",
+      "project management",
+      "agile",
+      "scrum",
+      "leadership",
+      "timeline management"
+    ],
+    "skills": [
+      "communication",
+      "leadership",
+      "agile",
+      "jira",
+      "excel",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "business development manager",
+    "keywords": [
+      "business development",
+      "sales strategy",
+      "client acquisition",
+      "partnerships",
+      "market expansion"
+    ],
+    "skills": [
+      "communication",
+      "negotiation",
+      "presentation",
+      "crm",
+      "excel",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "strategy analyst",
+    "keywords": [
+      "strategy analyst",
+      "strategic planning",
+      "market analysis",
+      "competitive intelligence",
+      "business strategy"
+    ],
+    "skills": [
+      "communication",
+      "data analysis",
+      "excel",
+      "presentation",
+      "problem solving",
+      "research"
+    ]
+  },
+  {
+    "name": "investment analyst",
+    "keywords": [
+      "investment analyst",
+      "financial analysis",
+      "equities",
+      "fixed income",
+      "portfolio management"
+    ],
+    "skills": [
+      "excel",
+      "financial modeling",
+      "sql",
+      "communication",
+      "problem solving",
+      "research"
+    ]
+  },
+  {
+    "name": "account manager",
+    "keywords": [
+      "account manager",
+      "client relationship",
+      "account servicing",
+      "sales support",
+      "customer retention"
+    ],
+    "skills": [
+      "communication",
+      "presentation",
+      "negotiation",
+      "crm",
+      "excel",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "entrepreneur",
+    "keywords": [
+      "entrepreneur",
+      "startup founder",
+      "business creation",
+      "venture building",
+      "innovation"
+    ],
+    "skills": [
+      "communication",
+      "leadership",
+      "problem solving",
+      "strategic thinking",
+      "financial planning",
+      "presentation"
+    ]
+  },
+  {
+    "name": "it consultant",
+    "keywords": [
+      "it consultant",
+      "technology consulting",
+      "system integration",
+      "digital transformation",
+      "tech advisory"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "project management",
+      "cloud services",
+      "docker",
+      "git"
+    ]
+  },
+  {
+    "name": "system administrator",
+    "keywords": [
+      "system administrator",
+      "sysadmin",
+      "server management",
+      "linux",
+      "windows",
+      "infrastructure"
+    ],
+    "skills": [
+      "linux",
+      "windows",
+      "shell scripting",
+      "docker",
+      "networking",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "database administrator",
+    "keywords": [
+      "database administrator",
+      "dba",
+      "sql",
+      "postgresql",
+      "database performance",
+      "data security"
+    ],
+    "skills": [
+      "sql",
+      "postgresql",
+      "database tuning",
+      "backup and recovery",
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "name": "network engineer",
+    "keywords": [
+      "network engineer",
+      "networking",
+      "router",
+      "switch",
+      "firewall",
+      "network design"
+    ],
+    "skills": [
+      "network troubleshooting",
+      "cisco",
+      "network protocols",
+      "security",
+      "problem solving",
+      "communication"
+    ]
+  },
+  {
+    "name": "cloud engineer",
+    "keywords": [
+      "cloud engineer",
+      "aws",
+      "azure",
+      "gcp",
+      "cloud architecture",
+      "devops"
+    ],
+    "skills": [
+      "aws",
+      "azure",
+      "gcp",
+      "docker",
+      "kubernetes",
+      "infrastructure as code"
+    ]
+  },
+  {
+    "name": "technical support engineer",
+    "keywords": [
+      "technical support",
+      "help desk",
+      "customer support",
+      "troubleshooting",
+      "software support"
+    ],
+    "skills": [
+      "communication",
+      "problem solving",
+      "troubleshooting",
+      "ticketing systems",
+      "linux",
+      "windows"
+    ]
+  },
+  {
+    "name": "mobile app developer",
+    "keywords": [
+      "mobile app developer",
+      "android",
+      "ios",
+      "react native",
+      "flutter",
+      "mobile development"
+    ],
+    "skills": [
+      "react native",
+      "flutter",
+      "java",
+      "kotlin",
+      "swift",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "software engineer",
+    "keywords": [
+      "software engineer",
+      "software development",
+      "object oriented programming",
+      "java",
+      "c++",
+      "software design"
+    ],
+    "skills": [
+      "java",
+      "c++",
+      "python",
+      "git",
+      "problem solving",
+      "software design"
+    ]
+  },
+  {
+    "name": "data engineer",
+    "keywords": [
+      "data engineer",
+      "data pipelines",
+      "etl",
+      "big data",
+      "spark",
+      "data warehousing"
+    ],
+    "skills": [
+      "python",
+      "sql",
+      "spark",
+      "airflow",
+      "databases",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "business intelligence analyst",
+    "keywords": [
+      "business intelligence",
+      "b i analyst",
+      "dashboard",
+      "reporting",
+      "data visualization"
+    ],
+    "skills": [
+      "tableau",
+      "power bi",
+      "sql",
+      "excel",
+      "communication",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "marketing manager",
+    "keywords": [
+      "marketing manager",
+      "digital marketing",
+      "brand strategy",
+      "campaign management",
+      "seo",
+      "sem"
+    ],
+    "skills": [
+      "communication",
+      "creativity",
+      "seo",
+      "sem",
+      "content strategy",
+      "analytics"
+    ]
+  },
+
+  { "name": "cybersecurity analyst", "keywords": ["cybersecurity", "security analyst", "information security", "soc analyst", "threat analysis", "penetration testing", "owasp", "cissp", "ceh"], "skills": ["cybersecurity", "network security", "penetration testing", "ethical hacking", "owasp", "risk management", "linux", "communication"] },
+  { "name": "ethical hacker", "keywords": ["ethical hacker", "penetration tester", "red team", "bug bounty", "vulnerability assessment", "kali linux"], "skills": ["penetration testing", "ethical hacking", "network security", "kali linux", "owasp", "problem solving", "linux"] },
+  { "name": "blockchain developer", "keywords": ["blockchain", "smart contract", "solidity", "web3", "ethereum", "defi", "nft", "dapp"], "skills": ["blockchain", "solidity", "javascript", "python", "problem solving", "git"] },
+  { "name": "game developer", "keywords": ["game developer", "game development", "unity", "unreal engine", "c#", "game designer", "game programming"], "skills": ["c#", "unity", "problem solving", "creative thinking", "teamwork", "git"] },
+  { "name": "embedded systems engineer", "keywords": ["embedded", "embedded systems", "firmware", "iot", "microcontroller", "arduino", "raspberry pi", "rtos"], "skills": ["c", "c++", "embedded systems", "problem solving", "linux", "teamwork"] },
+  { "name": "ai engineer", "keywords": ["ai engineer", "artificial intelligence", "deep learning", "nlp", "computer vision", "llm", "generative ai", "langchain"], "skills": ["python", "machine learning", "tensorflow", "deep learning", "sql", "problem solving", "docker"] },
+  { "name": "computer vision engineer", "keywords": ["computer vision", "image processing", "object detection", "opencv", "yolo", "image recognition"], "skills": ["python", "opencv", "tensorflow", "machine learning", "problem solving", "research"] },
+  { "name": "nlp engineer", "keywords": ["nlp", "natural language processing", "text analytics", "transformers", "bert", "chatbot", "llm"], "skills": ["python", "nlp", "machine learning", "tensorflow", "problem solving", "research"] },
+  { "name": "data architect", "keywords": ["data architect", "data modeling", "data warehouse", "enterprise data", "lakehouse", "data governance"], "skills": ["sql", "spark", "snowflake", "databricks", "python", "problem solving", "communication"] },
+  { "name": "erp consultant", "keywords": ["erp", "sap", "oracle erp", "erp consultant", "sap fico", "sap mm", "sap sd", "sap hr"], "skills": ["sap", "erp", "communication", "problem solving", "excel", "project management"] },
+  { "name": "salesforce developer", "keywords": ["salesforce", "salesforce developer", "apex", "lwc", "crm developer", "force.com", "visualforce"], "skills": ["salesforce", "crm", "javascript", "communication", "problem solving", "git"] },
+  { "name": "power platform developer", "keywords": ["power apps", "power automate", "power bi developer", "microsoft power platform", "low code"], "skills": ["power bi", "excel", "javascript", "problem solving", "communication", "sql"] },
+  { "name": "sharepoint developer", "keywords": ["sharepoint", "sharepoint developer", "office 365", "microsoft 365", "intranet"], "skills": ["sharepoint", "javascript", "communication", "problem solving", "git", "microsoft office"] },
+  { "name": "it project manager", "keywords": ["it project manager", "technology project", "program manager", "delivery manager", "scrum master"], "skills": ["project management", "agile", "scrum", "jira", "communication", "leadership", "risk management"] },
+  { "name": "scrum master", "keywords": ["scrum master", "agile coach", "sprint planning", "scrum", "agile delivery"], "skills": ["agile", "scrum", "jira", "communication", "leadership", "problem solving", "teamwork"] },
+  { "name": "digital transformation consultant", "keywords": ["digital transformation", "change management", "innovation", "technology adoption", "digitalization"], "skills": ["strategic thinking", "project management", "communication", "problem solving", "leadership", "presentation"] },
+  { "name": "solutions architect", "keywords": ["solutions architect", "cloud solutions", "system design", "enterprise architect", "technical architect"], "skills": ["aws", "azure", "docker", "kubernetes", "communication", "problem solving", "software design"] },
+  { "name": "it auditor", "keywords": ["it auditor", "it audit", "information systems audit", "cisa", "it compliance", "is auditor"], "skills": ["auditing", "risk management", "communication", "excel", "problem solving", "compliance"] },
+
+  { "name": "financial controller", "keywords": ["financial controller", "controller", "management accounting", "financial close", "reporting"], "skills": ["accounting", "excel", "financial reporting", "communication", "problem solving", "leadership"] },
+  { "name": "chief financial officer", "keywords": ["cfo", "chief financial officer", "finance head", "vp finance", "finance director"], "skills": ["financial modeling", "leadership", "communication", "strategic thinking", "excel", "risk management"] },
+  { "name": "treasury analyst", "keywords": ["treasury", "treasury analyst", "cash management", "liquidity", "forex", "derivatives"], "skills": ["excel", "financial modeling", "communication", "risk management", "problem solving", "banking"] },
+  { "name": "tax consultant", "keywords": ["tax consultant", "tax advisor", "direct tax", "indirect tax", "gst", "income tax", "tax planning"], "skills": ["taxation", "gst", "tds", "excel", "communication", "problem solving", "tally"] },
+  { "name": "credit analyst", "keywords": ["credit analyst", "credit risk", "loan underwriting", "credit appraisal", "credit rating", "loan officer"], "skills": ["risk management", "excel", "financial modeling", "communication", "problem solving", "banking"] },
+  { "name": "risk manager", "keywords": ["risk manager", "enterprise risk", "risk governance", "risk officer", "erm"], "skills": ["risk management", "communication", "excel", "problem solving", "compliance", "presentation"] },
+  { "name": "insurance analyst", "keywords": ["insurance", "insurance analyst", "underwriter", "actuary", "claims analyst", "reinsurance"], "skills": ["excel", "communication", "risk management", "problem solving", "statistics", "research"] },
+  { "name": "actuary", "keywords": ["actuary", "actuarial", "actuarial analyst", "life insurance", "general insurance", "pension"], "skills": ["statistics", "excel", "r", "matlab", "communication", "problem solving", "research"] },
+  { "name": "equity research analyst", "keywords": ["equity research", "stock analysis", "fundamental analysis", "buy side", "sell side", "sector analyst"], "skills": ["excel", "financial modeling", "research", "communication", "presentation", "data analysis"] },
+  { "name": "private equity analyst", "keywords": ["private equity", "pe analyst", "lbo", "due diligence", "deal sourcing", "portfolio management"], "skills": ["excel", "financial modeling", "communication", "research", "problem solving", "negotiation"] },
+
+  { "name": "brand manager", "keywords": ["brand manager", "brand management", "brand strategy", "brand equity", "brand building"], "skills": ["communication", "creative thinking", "presentation", "research", "data analysis", "project management"] },
+  { "name": "social media manager", "keywords": ["social media manager", "social media marketing", "instagram", "facebook", "twitter", "tiktok", "content calendar"], "skills": ["social media", "content writing", "creativity", "communication", "analytics", "seo"] },
+  { "name": "growth hacker", "keywords": ["growth hacker", "growth marketing", "growth strategy", "user acquisition", "retention", "viral marketing"], "skills": ["analytics", "seo", "sem", "communication", "data analysis", "creative thinking"] },
+  { "name": "public relations officer", "keywords": ["public relations", "pr", "media relations", "press release", "communications officer", "corporate communications"], "skills": ["communication", "content writing", "research", "presentation", "editing", "teamwork"] },
+  { "name": "event manager", "keywords": ["event manager", "event planning", "event coordinator", "conference", "exhibition", "trade show"], "skills": ["project management", "communication", "leadership", "teamwork", "time management", "negotiation"] },
+  { "name": "market research analyst", "keywords": ["market research", "market analyst", "consumer research", "survey analyst", "insights analyst"], "skills": ["research", "excel", "statistics", "communication", "presentation", "data analysis"] },
+  { "name": "e-commerce manager", "keywords": ["e-commerce", "ecommerce manager", "online retail", "amazon seller", "shopify", "marketplace manager"], "skills": ["digital marketing", "analytics", "communication", "excel", "seo", "crm"] },
+  { "name": "product marketing manager", "keywords": ["product marketing", "go to market", "gtm", "product launch", "positioning", "messaging"], "skills": ["communication", "research", "presentation", "data analysis", "strategic thinking", "project management"] },
+  { "name": "affiliate marketer", "keywords": ["affiliate marketing", "affiliate manager", "performance marketing", "cpa", "cpl", "publisher"], "skills": ["digital marketing", "analytics", "seo", "excel", "communication", "problem solving"] },
+
+  { "name": "recruiter", "keywords": ["recruiter", "talent acquisition", "headhunting", "sourcing", "technical recruiter", "campus recruiter", "staffing"], "skills": ["communication", "interviewing", "excel", "problem solving", "teamwork", "crm"] },
+  { "name": "learning and development specialist", "keywords": ["learning and development", "l&d", "training specialist", "corporate trainer", "instructional designer"], "skills": ["training and development", "communication", "presentation", "research", "excel", "leadership"] },
+  { "name": "compensation and benefits analyst", "keywords": ["compensation", "benefits", "rewards", "total rewards", "c&b analyst", "payroll analyst"], "skills": ["excel", "compensation and benefits", "payroll", "communication", "problem solving", "data analysis"] },
+  { "name": "hr business partner", "keywords": ["hr business partner", "hrbp", "strategic hr", "people partner", "hr manager"], "skills": ["communication", "problem solving", "leadership", "excel", "employee engagement", "strategic thinking"] },
+  { "name": "organizational development consultant", "keywords": ["organizational development", "od consultant", "change management", "culture", "transformation"], "skills": ["communication", "leadership", "problem solving", "research", "presentation", "strategic thinking"] },
+
+  { "name": "operations analyst", "keywords": ["operations analyst", "process analyst", "workflow analyst", "business process", "ops analyst"], "skills": ["excel", "data analysis", "problem solving", "communication", "sql", "project management"] },
+  { "name": "lean six sigma consultant", "keywords": ["lean", "six sigma", "process improvement", "kaizen", "black belt", "green belt", "lean six sigma"], "skills": ["lean management", "six sigma", "problem solving", "data analysis", "excel", "communication"] },
+  { "name": "procurement manager", "keywords": ["procurement manager", "sourcing manager", "purchase manager", "buying manager", "category manager"], "skills": ["procurement", "negotiation", "excel", "vendor management", "communication", "problem solving"] },
+  { "name": "logistics manager", "keywords": ["logistics manager", "transport manager", "fleet manager", "distribution manager", "freight manager"], "skills": ["logistics management", "excel", "problem solving", "communication", "leadership", "teamwork"] },
+  { "name": "warehouse manager", "keywords": ["warehouse manager", "warehouse operations", "inventory controller", "stock controller", "distribution center"], "skills": ["inventory management", "warehousing", "excel", "communication", "leadership", "problem solving"] },
+  { "name": "import export manager", "keywords": ["import", "export", "customs", "freight forwarding", "trade compliance", "exim"], "skills": ["import export", "logistics management", "communication", "excel", "compliance", "negotiation"] },
+
+  { "name": "general surgeon", "keywords": ["surgeon", "surgery", "general surgery", "operative", "operating theater"], "skills": ["patient care", "diagnosis", "communication", "problem solving", "teamwork", "medical records"] },
+  { "name": "physiotherapist", "keywords": ["physiotherapist", "physiotherapy", "physical therapy", "rehabilitation", "musculoskeletal"], "skills": ["patient care", "communication", "problem solving", "teamwork", "research", "compassion"] },
+  { "name": "radiologist", "keywords": ["radiologist", "radiology", "imaging", "mri", "ct scan", "x-ray", "diagnostic imaging"], "skills": ["diagnosis", "patient care", "communication", "research", "problem solving", "medical records"] },
+  { "name": "lab technician", "keywords": ["lab technician", "laboratory", "pathology", "medical lab", "clinical lab", "sample analysis"], "skills": ["research", "patient care", "attention to detail", "communication", "teamwork", "medical records"] },
+  { "name": "dietitian", "keywords": ["dietitian", "nutritionist", "nutrition", "diet counseling", "clinical nutrition"], "skills": ["patient care", "communication", "research", "problem solving", "compassion", "presentation"] },
+  { "name": "occupational therapist", "keywords": ["occupational therapist", "ot", "occupational therapy", "rehabilitation", "functional therapy"], "skills": ["patient care", "communication", "problem solving", "compassion", "teamwork", "research"] },
+  { "name": "speech therapist", "keywords": ["speech therapist", "speech language pathologist", "slp", "speech therapy"], "skills": ["patient care", "communication", "research", "problem solving", "compassion", "active listening"] },
+  { "name": "public health officer", "keywords": ["public health", "epidemiologist", "health officer", "community health", "disease surveillance"], "skills": ["research", "statistics", "communication", "data analysis", "problem solving", "presentation"] },
+  { "name": "hospital administrator", "keywords": ["hospital administrator", "healthcare administrator", "hospital manager", "health services manager"], "skills": ["leadership", "communication", "project management", "excel", "problem solving", "teamwork"] },
+
+  { "name": "corporate lawyer", "keywords": ["corporate lawyer", "corporate law", "mergers acquisitions", "legal counsel", "company secretary", "in house counsel"], "skills": ["legal research", "drafting", "communication", "negotiation", "problem solving", "presentation"] },
+  { "name": "intellectual property lawyer", "keywords": ["intellectual property", "ip lawyer", "patent attorney", "trademark", "copyright", "ip litigation"], "skills": ["legal research", "drafting", "communication", "negotiation", "research", "problem solving"] },
+  { "name": "company secretary", "keywords": ["company secretary", "cs", "corporate governance", "board secretarial", "statutory compliance", "mca"], "skills": ["compliance", "documentation", "communication", "drafting", "excel", "organization"] },
+  { "name": "legal compliance officer", "keywords": ["compliance officer", "legal compliance", "regulatory compliance", "governance", "kyc", "aml"], "skills": ["compliance", "legal research", "communication", "risk management", "documentation", "excel"] },
+
+  { "name": "university professor", "keywords": ["professor", "associate professor", "assistant professor", "university lecturer", "academia", "phd faculty"], "skills": ["research", "communication", "presentation", "leadership", "problem solving", "teamwork"] },
+  { "name": "school principal", "keywords": ["principal", "school head", "headmaster", "headmistress", "school administrator"], "skills": ["leadership", "communication", "problem solving", "teamwork", "presentation", "organization"] },
+  { "name": "education counselor", "keywords": ["education counselor", "academic counselor", "student counselor", "college counselor", "career counselor"], "skills": ["communication", "problem solving", "presentation", "research", "active listening", "compassion"] },
+  { "name": "instructional designer", "keywords": ["instructional designer", "curriculum developer", "elearning developer", "course designer", "articulate", "moodle"], "skills": ["training and development", "research", "communication", "creative thinking", "presentation", "editing"] },
+
+  { "name": "environmental engineer", "keywords": ["environmental engineer", "environmental science", "pollution control", "waste management", "environmental impact"], "skills": ["problem solving", "research", "communication", "safety compliance", "teamwork", "project management"] },
+  { "name": "chemical engineer", "keywords": ["chemical engineer", "chemical engineering", "process engineer", "oil gas", "refinery", "plant engineer"], "skills": ["problem solving", "safety compliance", "teamwork", "project management", "communication", "research"] },
+  { "name": "aerospace engineer", "keywords": ["aerospace", "aeronautical", "aircraft", "avionics", "aerospace engineer"], "skills": ["problem solving", "safety compliance", "teamwork", "project management", "cad", "research"] },
+  { "name": "structural engineer", "keywords": ["structural engineer", "structural design", "rcc design", "structural analysis", "staad", "etabs"], "skills": ["autocad", "problem solving", "teamwork", "project management", "safety compliance", "communication"] },
+  { "name": "petroleum engineer", "keywords": ["petroleum engineer", "oil and gas", "drilling", "reservoir", "production engineer"], "skills": ["problem solving", "safety compliance", "research", "communication", "teamwork", "technical skills"] },
+  { "name": "textile engineer", "keywords": ["textile", "textile engineer", "garment", "spinning", "weaving", "dyeing", "fabric"], "skills": ["technical skills", "problem solving", "teamwork", "communication", "safety compliance", "research"] },
+  { "name": "production engineer", "keywords": ["production engineer", "manufacturing engineer", "plant operations", "production planning", "assembly line"], "skills": ["problem solving", "safety compliance", "teamwork", "project management", "lean management", "communication"] },
+  { "name": "quality control engineer", "keywords": ["quality control", "qc engineer", "quality inspector", "iso", "qc analyst", "product quality"], "skills": ["attention to detail", "problem solving", "teamwork", "safety compliance", "communication", "technical skills"] },
+  { "name": "maintenance engineer", "keywords": ["maintenance engineer", "preventive maintenance", "equipment maintenance", "plant maintenance", "reliability engineer"], "skills": ["technical skills", "problem solving", "safety compliance", "teamwork", "communication", "scheduling"] },
+
+  { "name": "graphic designer", "keywords": ["graphic designer", "visual design", "branding design", "print design", "logo design", "illustrator"], "skills": ["creative thinking", "photoshop", "illustrator", "communication", "presentation", "editing"] },
+  { "name": "motion graphics designer", "keywords": ["motion graphics", "motion designer", "after effects", "animation", "video animation", "2d animation"], "skills": ["after effects", "creative thinking", "communication", "editing", "presentation", "teamwork"] },
+  { "name": "video editor", "keywords": ["video editor", "video production", "film editing", "post production", "premiere pro", "final cut"], "skills": ["video editing", "premiere pro", "creative thinking", "communication", "editing", "teamwork"] },
+  { "name": "3d artist", "keywords": ["3d artist", "3d modeling", "3d animation", "blender", "maya", "cgi", "3d designer"], "skills": ["creative thinking", "communication", "editing", "teamwork", "problem solving", "presentation"] },
+  { "name": "interior designer", "keywords": ["interior designer", "interior design", "space planning", "furniture design", "cad", "3d visualization"], "skills": ["creative thinking", "autocad", "communication", "presentation", "project management", "teamwork"] },
+  { "name": "fashion designer", "keywords": ["fashion designer", "fashion design", "apparel design", "garment design", "couture", "textile design"], "skills": ["creative thinking", "communication", "presentation", "research", "organization", "teamwork"] },
+  { "name": "art director", "keywords": ["art director", "creative director", "visual director", "advertising creative", "art direction"], "skills": ["creative thinking", "communication", "leadership", "presentation", "photoshop", "illustrator"] },
+
+  { "name": "ux researcher", "keywords": ["ux researcher", "user researcher", "usability testing", "user interviews", "heuristic evaluation", "ux research"], "skills": ["user research", "communication", "research", "presentation", "data analysis", "wireframing"] },
+  { "name": "product designer", "keywords": ["product designer", "ux ui designer", "interaction designer", "end to end designer", "design system"], "skills": ["figma", "wireframing", "prototyping", "communication", "user research", "creative thinking"] },
+
+  { "name": "real estate agent", "keywords": ["real estate", "property consultant", "real estate agent", "realtor", "property dealer", "housing sales"], "skills": ["communication", "negotiation", "sales", "customer service", "presentation", "crm"] },
+  { "name": "real estate analyst", "keywords": ["real estate analyst", "property analyst", "real estate valuation", "property valuation", "reit"], "skills": ["excel", "financial modeling", "research", "communication", "problem solving", "presentation"] },
+  { "name": "urban planner", "keywords": ["urban planner", "town planner", "city planner", "urban design", "zoning", "land use"], "skills": ["autocad", "research", "communication", "project management", "problem solving", "presentation"] },
+
+  { "name": "travel agent", "keywords": ["travel agent", "travel consultant", "tour operator", "ticketing", "travel booking", "tourism"], "skills": ["customer service", "communication", "organization", "problem solving", "teamwork", "sales"] },
+  { "name": "tour guide", "keywords": ["tour guide", "tourist guide", "heritage guide", "travel guide", "guide"], "skills": ["communication", "presentation", "customer service", "problem solving", "teamwork", "research"] },
+  { "name": "airline operations", "keywords": ["airline operations", "ground staff", "airport operations", "check-in agent", "cargo agent", "ramp agent"], "skills": ["customer service", "communication", "teamwork", "problem solving", "safety compliance", "organization"] },
+
+  { "name": "sports coach", "keywords": ["sports coach", "coach", "athletic trainer", "fitness trainer", "performance coach"], "skills": ["communication", "leadership", "teamwork", "problem solving", "presentation", "time management"] },
+  { "name": "fitness trainer", "keywords": ["fitness trainer", "personal trainer", "gym trainer", "health coach", "wellness coach"], "skills": ["communication", "leadership", "customer service", "teamwork", "time management", "problem solving"] },
+  { "name": "nutritionist", "keywords": ["nutritionist", "dietitian", "diet plan", "sports nutrition", "clinical nutrition"], "skills": ["communication", "research", "patient care", "problem solving", "compassion", "presentation"] },
+
+  { "name": "social worker", "keywords": ["social worker", "community worker", "ngo", "welfare officer", "case worker", "counselor"], "skills": ["communication", "compassion", "problem solving", "teamwork", "research", "active listening"] },
+  { "name": "ngo program manager", "keywords": ["ngo", "non profit", "program manager", "development sector", "csr", "social impact"], "skills": ["project management", "communication", "leadership", "research", "teamwork", "presentation"] },
+  { "name": "policy analyst", "keywords": ["policy analyst", "policy researcher", "government affairs", "public policy", "regulatory analyst"], "skills": ["research", "communication", "presentation", "data analysis", "statistics", "problem solving"] },
+  { "name": "economist", "keywords": ["economist", "economics", "economic analyst", "macroeconomics", "microeconomics", "development economics"], "skills": ["research", "statistics", "excel", "communication", "data analysis", "presentation"] },
+  { "name": "statistician", "keywords": ["statistician", "biostatistician", "applied statistics", "statistical analysis", "spss", "r", "stata"], "skills": ["statistics", "r", "stata", "spss", "excel", "communication", "research"] },
+
+  { "name": "radio jockey", "keywords": ["rj", "radio jockey", "radio host", "radio presenter", "on air talent"], "skills": ["communication", "creativity", "presentation", "content creation", "research", "teamwork"] },
+  { "name": "news anchor", "keywords": ["news anchor", "tv anchor", "news presenter", "broadcast journalist", "tv journalist"], "skills": ["communication", "research", "presentation", "content writing", "editing", "teamwork"] },
+  { "name": "voice over artist", "keywords": ["voice over", "voice artist", "dubbing artist", "voice actor", "audio production"], "skills": ["communication", "creativity", "presentation", "content creation", "teamwork", "editing"] },
+  { "name": "film director", "keywords": ["film director", "director", "ad film", "commercial director", "short film", "documentary"], "skills": ["creative thinking", "leadership", "communication", "teamwork", "problem solving", "project management"] },
+  { "name": "screenwriter", "keywords": ["screenwriter", "script writer", "screenplay", "dialogue writer", "story writer"], "skills": ["content writing", "research", "creativity", "communication", "editing", "presentation"] },
+
+  { "name": "microbiologist", "keywords": ["microbiologist", "microbiology", "bacteriology", "virology", "lab research", "clinical microbiology"], "skills": ["research", "attention to detail", "communication", "problem solving", "teamwork", "data analysis"] },
+  { "name": "biotechnologist", "keywords": ["biotechnologist", "biotechnology", "molecular biology", "genomics", "bioinformatics", "cell biology"], "skills": ["research", "problem solving", "communication", "data analysis", "teamwork", "statistics"] },
+  { "name": "bioinformatics analyst", "keywords": ["bioinformatics", "genomics", "proteomics", "sequence analysis", "biological data"], "skills": ["python", "r", "research", "statistics", "data analysis", "problem solving"] },
+  { "name": "clinical research associate", "keywords": ["clinical research", "cra", "clinical trials", "gcp", "site monitoring", "pharmacovigilance"], "skills": ["research", "documentation", "communication", "problem solving", "attention to detail", "compliance"] },
+  { "name": "quality assurance manager", "keywords": ["quality assurance manager", "qa manager", "quality head", "iso certification", "gmp", "quality systems"], "skills": ["attention to detail", "problem solving", "communication", "safety compliance", "teamwork", "documentation"] },
+
+  { "name": "astrologer", "keywords": ["astrologer", "vedic astrology", "tarot", "numerology", "astrology consultant"], "skills": ["communication", "research", "presentation", "problem solving", "active listening", "compassion"] },
+  { "name": "yoga instructor", "keywords": ["yoga instructor", "yoga teacher", "wellness instructor", "meditation coach", "mindfulness coach"], "skills": ["communication", "leadership", "customer service", "teamwork", "time management", "compassion"] },
+  { "name": "music teacher", "keywords": ["music teacher", "musician", "piano teacher", "guitar teacher", "vocal coach", "music instructor"], "skills": ["communication", "creative thinking", "presentation", "leadership", "teamwork", "research"] },
+  { "name": "translator", "keywords": ["translator", "interpreter", "language specialist", "localization", "subtitling", "multilingual"], "skills": ["communication", "research", "attention to detail", "editing", "problem solving", "translating"] },
+  { "name": "technical writer", "keywords": ["technical writer", "documentation specialist", "api documentation", "user manual", "knowledge base writer"], "skills": ["technical writing", "communication", "editing", "research", "documentation", "problem solving"] },
+  { "name": "grant writer", "keywords": ["grant writer", "proposal writer", "fundraising", "grant application", "donor relations"], "skills": ["grant writing", "proposal writing", "communication", "research", "presentation", "problem solving"] },
+
+  { "name": "retail store manager", "keywords": ["retail manager", "store manager", "shop manager", "branch manager", "outlet manager"], "skills": ["leadership", "customer service", "communication", "sales", "teamwork", "excel"] },
+  { "name": "visual merchandiser", "keywords": ["visual merchandiser", "vm", "store display", "planogram", "window display"], "skills": ["creative thinking", "communication", "teamwork", "organization", "presentation", "customer service"] },
+  { "name": "fashion buyer", "keywords": ["fashion buyer", "merchandise buyer", "retail buyer", "trend forecasting", "buying"], "skills": ["negotiation", "research", "excel", "communication", "creative thinking", "vendor management"] },
+
+  { "name": "auto cad draftsman", "keywords": ["cad draftsman", "autocad", "drafting", "2d drawing", "3d drawing", "mechanical drafting"], "skills": ["autocad", "cad", "attention to detail", "problem solving", "teamwork", "technical skills"] },
+  { "name": "surveyor", "keywords": ["surveyor", "land surveyor", "quantity surveyor", "geo surveyor", "survey engineer"], "skills": ["autocad", "problem solving", "teamwork", "communication", "technical skills", "safety compliance"] },
+  { "name": "project coordinator", "keywords": ["project coordinator", "project executive", "project assistant", "project support", "coordinator"], "skills": ["project management", "communication", "excel", "jira", "teamwork", "problem solving"] },
+  { "name": "administrative assistant", "keywords": ["administrative assistant", "admin executive", "office assistant", "executive assistant", "pa", "personal assistant"], "skills": ["communication", "organization", "excel", "microsoft office", "time management", "scheduling"] },
+  { "name": "office manager", "keywords": ["office manager", "office administrator", "facilities manager", "admin manager"], "skills": ["leadership", "communication", "organization", "excel", "problem solving", "scheduling"] },
+  { "name": "virtual assistant", "keywords": ["virtual assistant", "remote assistant", "va", "online assistant", "administrative support"], "skills": ["communication", "organization", "scheduling", "microsoft office", "problem solving", "time management"] },
+  { "name": "data entry operator", "keywords": ["data entry", "data entry operator", "data entry clerk", "back office", "typing"], "skills": ["data entry", "excel", "attention to detail", "communication", "teamwork", "organization"] },
+  { "name": "customer relationship manager", "keywords": ["customer relationship manager", "crm manager", "client relations", "key account manager", "customer experience"], "skills": ["communication", "crm", "problem solving", "teamwork", "presentation", "customer service"] }
+]

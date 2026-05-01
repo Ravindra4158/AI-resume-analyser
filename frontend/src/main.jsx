@@ -166,6 +166,15 @@ function EmptyState() {
 }
 
 function Results({ result, scoreTone }) {
+  const nextSteps = [
+    ...result.feedback.priority_actions,
+    ...(result.ats_compliance?.recommendations || []),
+    ...(result.upskilling_roadmap?.priority_order || []).map((skill) => `Build the missing skill: ${skill}.`),
+  ]
+    .filter(Boolean)
+    .filter((item, index, items) => items.indexOf(item) === index)
+    .slice(0, 6);
+
   return (
     <>
       <div className="grid gap-4 md:grid-cols-4">
@@ -204,8 +213,8 @@ function Results({ result, scoreTone }) {
         <FeedbackBlock title="Copy-ready suggestions" items={result.feedback.rewritten_bullets} />
       </Panel>
 
-      <Panel title="Resume preview">
-        <p className="max-h-44 overflow-auto whitespace-pre-wrap text-sm leading-6 text-slate-700">{result.resume_preview}</p>
+      <Panel title="What to do next">
+        <FeedbackBlock title="Suggested next steps" items={nextSteps.length ? nextSteps : ["Review the summary and apply the highest-priority changes first."]} />
       </Panel>
     </>
   );

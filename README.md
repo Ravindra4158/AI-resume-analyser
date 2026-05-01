@@ -10,7 +10,7 @@ An AI-powered job-readiness copilot that analyzes a resume against a target role
 - Skill matching, missing skill detection, weak section detection, and weighted scoring.
 - React dashboard for uploading a resume and viewing the analysis.
 - Deterministic feedback engine that works without an API key.
-- Optional OpenAI-powered feedback for richer rewrite suggestions, action plans, and interview questions.
+- Optional Gemini/OpenAI-compatible feedback for richer rewrite suggestions, action plans, and interview questions.
 
 ## Hackathon Pitch
 
@@ -90,9 +90,10 @@ Backend environment variables:
 - `ALLOWED_ORIGINS`: comma-separated frontend origins allowed by CORS.
 - `MAX_UPLOAD_BYTES`: maximum resume upload size, defaults to 5 MB.
 - `RESUME_PREVIEW_CHARS`: length of the returned resume preview.
-- `OPENAI_API_KEY`: enables AI-generated feedback when set.
-- `OPENAI_MODEL`: OpenAI model name, defaults to `gpt-5-mini`.
-- `OPENAI_TIMEOUT_SECONDS`: timeout for OpenAI API calls.
+- `GEMINI_API_KEY`: enables AI-generated feedback when set.
+- `GEMINI_MODEL`: Gemini model name, defaults to `gemini-1.5-pro`.
+- `GEMINI_BASE_URL`: OpenAI-compatible Gemini endpoint, defaults to `https://generativelanguage.googleapis.com/v1beta/openai/`.
+- `GEMINI_TIMEOUT_SECONDS`: timeout for Gemini/OpenAI API calls.
 
 Frontend environment variables:
 
@@ -102,11 +103,12 @@ Frontend environment variables:
 
 By default, the app uses deterministic fallback feedback so it always works locally.
 
-To enable the AI features from `plan.md`, add your OpenAI API key in the backend environment:
+To enable the AI features from `plan.md`, add your Gemini API key in the backend environment:
 
 ```powershell
-$env:OPENAI_API_KEY="your_api_key_here"
-$env:OPENAI_MODEL="gpt-5-mini"
+$env:GEMINI_API_KEY="your_api_key_here"
+$env:GEMINI_MODEL="gemini-1.5-pro"
+$env:GEMINI_BASE_URL="https://generativelanguage.googleapis.com/v1beta/openai/"
 ```
 
 Then restart the backend and analyze a resume again.
