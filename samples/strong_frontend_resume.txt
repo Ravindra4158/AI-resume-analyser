@@ -1,0 +1,23 @@
+Priya Sharma
+Frontend Developer
+priya.sharma@example.com | +91 98765 43210 | github.com/priyasharma
+
+Summary
+Frontend developer with 3 years of experience building responsive React applications, reusable UI systems, and API-driven dashboards. Strong in JavaScript, TypeScript, HTML, CSS, Tailwind, Git, and GitHub.
+
+Skills
+React, JavaScript, TypeScript, HTML, CSS, Tailwind, API, Git, GitHub, Problem Solving, Communication
+
+Experience
+Frontend Developer, BrightApps
+- Built React dashboards connected to REST API services and improved page load performance by 35%.
+- Created reusable components with TypeScript and Tailwind, reducing duplicate UI code across product screens.
+- Worked with backend engineers to debug API responses and improve user-facing error states.
+
+Projects
+Resume Analyzer Dashboard
+- Built a React upload workflow with score cards, matched skills, missing skills, and improvement suggestions.
+- Used Tailwind CSS for responsive layouts and GitHub for code review.
+
+Education
+B.Tech in Computer Science

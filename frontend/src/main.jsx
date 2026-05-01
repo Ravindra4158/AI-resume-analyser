@@ -3,7 +3,17 @@ import { createRoot } from "react-dom/client";
 import { AlertCircle, CheckCircle2, FileText, Loader2, Upload } from "lucide-react";
 import "./styles.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const MAX_UPLOAD_BYTES = 5 * 1024 * 1024;
+const ALLOWED_EXTENSIONS = [".pdf", ".docx", ".txt"];
+
+function getApiErrorMessage(payload) {
+  return payload?.error?.message || payload?.detail || "Resume analysis failed.";
+}
+
+function isAllowedResumeFile(filename) {
+  return ALLOWED_EXTENSIONS.some((extension) => filename.toLowerCase().endsWith(extension));
+}
 
 function App() {
   const [file, setFile] = useState(null);
@@ -22,6 +32,16 @@ function App() {
       return;
     }
 
+    if (!isAllowedResumeFile(file.name)) {
+      setError("Only PDF, DOCX, or TXT resume files are supported.");
+      return;
+    }
+
+    if (file.size > MAX_UPLOAD_BYTES) {
+      setError("Resume file is too large. Upload a file under 5 MB.");
+      return;
+    }
+
     const formData = new FormData();
     formData.append("resume", file);
     formData.append("job_role", jobRole);
@@ -32,13 +52,13 @@ function App() {
         method: "POST",
         body: formData,
       });
-      const data = await response.json();
+      const data = await response.json().catch(() => null);
       if (!response.ok) {
-        throw new Error(data.detail || "Resume analysis failed.");
+        throw new Error(getApiErrorMessage(data));
       }
       setResult(data);
     } catch (fetchError) {
-      setError(fetchError.message);
+      setError(fetchError.message || `Could not connect to the backend at ${API_URL}.`);
     } finally {
       setIsLoading(false);
     }
@@ -229,4 +249,3 @@ function FeedbackBlock({ title, items, icon }) {
 }
 
 createRoot(document.getElementById("root")).render(<App />);
-
